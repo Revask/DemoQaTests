@@ -18,6 +18,11 @@ public class CheckBoxTest
 			System.out.println("Checkbox is selected");
 		else
 			chkbox.click();
+		System.out.println("Program complete");
+		System.out.println("This is a mice code change to check git");
+		int a = 10,b=34;
+		int c = a+b;
+		System.out.println("Result c " + c);
 		Thread.sleep(1000);
 		dri.close();
 	}
